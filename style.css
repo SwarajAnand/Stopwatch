@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+.container *{
+    
+}
+
+.digit{
+    border: 2px solid red;
+    font-size: 4.5rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.secDigit{
+    font-size: 2.8rem;
+}
+
+.txt{
+    font-size: 2rem;
+}
+
+#time{
+    border: 2px solid red;
+    padding: 20px;
+}
+
+#buttons{
+    border: 2px solid red;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
